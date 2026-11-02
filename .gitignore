@@ -1,0 +1,10 @@
+.upforge/projects/mass-edit-server-actions/ui/
+.upforge/projects/mass-edit-server-actions/backups/
+.upforge/projects/mass-edit-server-actions/last_run/
+.upforge/projects/mass-edit-server-actions/hops/
+.upforge/projects/mass-edit-server-actions/applied/
+.upforge/projects/mass-edit-server-actions/deploys/
+.upforge/projects/mass-edit-server-actions/install/
+.upforge/owner.json
+__pycache__/
+*.pyc
