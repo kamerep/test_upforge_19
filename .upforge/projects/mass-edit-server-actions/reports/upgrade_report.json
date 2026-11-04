@@ -29,13 +29,13 @@
  "open_hints": [],
  "last_apply": "run_2026-11-04T08:51:42",
  "verify": {
-  "run_id": "run_2026-11-04T08:51:50",
+  "run_id": "run_2026-11-04T10:59:20",
   "exit_code": 0,
   "summary": {
    "errors": 0,
    "warnings": 0,
    "blocking": 0,
-   "new_warnings": 1,
+   "new_warnings": 0,
    "guidelines_new": 0
   }
  },
@@ -158,6 +158,105 @@
    "command": "record_manual",
    "exit_code": 0,
    "started": "2026-11-04T08:52:14+04:00",
+   "summary": {
+    "fixed": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T08:53:19",
+   "command": "recheck",
+   "exit_code": 0,
+   "started": "2026-11-04T08:53:19+04:00",
+   "summary": {
+    "stamp": "20261104-085319",
+    "changed": 0,
+    "written": 0,
+    "conflicts": 0,
+    "backup": null,
+    "new_modules": 0,
+    "warnings": 0,
+    "removed_modules": [],
+    "foreign_modules": [],
+    "fingerprint": "e3b0c44298fc",
+    "hops": 4
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T10:57:35",
+   "command": "verify",
+   "exit_code": 0,
+   "started": "2026-11-04T10:57:35+04:00",
+   "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "blocking": 0,
+    "new_warnings": 1,
+    "guidelines_new": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T10:58:10",
+   "command": "recheck",
+   "exit_code": 0,
+   "started": "2026-11-04T10:58:10+04:00",
+   "summary": {
+    "stamp": "20261104-105810",
+    "changed": 0,
+    "written": 0,
+    "conflicts": 0,
+    "backup": null,
+    "new_modules": 0,
+    "warnings": 0,
+    "removed_modules": [],
+    "foreign_modules": [],
+    "fingerprint": "e3b0c44298fc",
+    "hops": 4
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T10:59:09",
+   "command": "verify",
+   "exit_code": 0,
+   "started": "2026-11-04T10:59:09+04:00",
+   "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "blocking": 0,
+    "new_warnings": 1,
+    "guidelines_new": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T10:59:15",
+   "command": "verify",
+   "exit_code": 0,
+   "started": "2026-11-04T10:59:15+04:00",
+   "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "blocking": 0,
+    "new_warnings": 0,
+    "guidelines_new": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T10:59:20",
+   "command": "verify",
+   "exit_code": 0,
+   "started": "2026-11-04T10:59:20+04:00",
+   "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "blocking": 0,
+    "new_warnings": 0,
+    "guidelines_new": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T10:59:36",
+   "command": "record_manual",
+   "exit_code": 0,
+   "started": "2026-11-04T10:59:36+04:00",
    "summary": {
     "fixed": 0
    }

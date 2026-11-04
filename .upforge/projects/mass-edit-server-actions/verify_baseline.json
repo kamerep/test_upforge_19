@@ -1,0 +1,5 @@
+{
+ "keys": [
+  "quality.dead_override|server_action_mass_edit/models/ir_actions_server.py|ir.actions.server._onchange_model_id overrides a method Odoo 20.0 no longer has: this code never runs (renamed? see the hop's hints)"
+ ]
+}
