@@ -1,0 +1,166 @@
+{
+ "project_id": "mass-edit-server-actions",
+ "name": "mass_edit_server actions",
+ "from": "16.0",
+ "to": "20.0",
+ "hops": [
+  "16.0->17.0",
+  "17.0->18.0",
+  "18.0->19.0",
+  "19.0->20.0"
+ ],
+ "files": 96,
+ "fixes": 96,
+ "fixes_by_hop": {
+  "generic": {
+   "auto": 90
+  },
+  "19.0->20.0": {
+   "auto": 2
+  },
+  "17.0->18.0": {
+   "auto": 2
+  },
+  "16.0->17.0": {
+   "auto": 2
+  }
+ },
+ "conflicts_resolved": 0,
+ "open_hints": [],
+ "last_apply": "run_2026-11-04T08:51:42",
+ "verify": {
+  "run_id": "run_2026-11-04T08:51:50",
+  "exit_code": 0,
+  "summary": {
+   "errors": 0,
+   "warnings": 0,
+   "blocking": 0,
+   "new_warnings": 1,
+   "guidelines_new": 0
+  }
+ },
+ "runs": [
+  {
+   "run_id": "run_2026-11-02T17:41:00",
+   "command": "check",
+   "exit_code": 0,
+   "started": "2026-11-02T17:41:00+04:00",
+   "summary": {
+    "stamp": "20261102-174100",
+    "changed": 96,
+    "written": 0,
+    "conflicts": 0,
+    "backup": null,
+    "new_modules": 1,
+    "warnings": 0,
+    "removed_modules": [],
+    "foreign_modules": [],
+    "fingerprint": "45b4dd54ff7a",
+    "hops": 4,
+    "suggestions": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-02T17:48:34",
+   "command": "check",
+   "exit_code": 0,
+   "started": "2026-11-02T17:48:34+04:00",
+   "summary": {
+    "stamp": "20261102-174834",
+    "changed": 96,
+    "written": 0,
+    "conflicts": 0,
+    "backup": null,
+    "new_modules": 1,
+    "warnings": 0,
+    "removed_modules": [],
+    "foreign_modules": [],
+    "fingerprint": "45b4dd54ff7a",
+    "hops": 4,
+    "suggestions": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-02T17:56:36",
+   "command": "check",
+   "exit_code": 0,
+   "started": "2026-11-02T17:56:36+04:00",
+   "summary": {
+    "stamp": "20261102-175636",
+    "changed": 96,
+    "written": 0,
+    "conflicts": 0,
+    "backup": null,
+    "new_modules": 1,
+    "warnings": 0,
+    "removed_modules": [],
+    "foreign_modules": [],
+    "fingerprint": "45b4dd54ff7a",
+    "hops": 4,
+    "suggestions": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T08:51:34",
+   "command": "check",
+   "exit_code": 0,
+   "started": "2026-11-04T08:51:34+04:00",
+   "summary": {
+    "stamp": "20261104-085134",
+    "changed": 96,
+    "written": 0,
+    "conflicts": 0,
+    "backup": null,
+    "new_modules": 1,
+    "warnings": 0,
+    "removed_modules": [],
+    "foreign_modules": [],
+    "fingerprint": "45b4dd54ff7a",
+    "hops": 4,
+    "suggestions": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T08:51:42",
+   "command": "apply",
+   "exit_code": 0,
+   "started": "2026-11-04T08:51:42+04:00",
+   "summary": {
+    "stamp": "20261104-085142",
+    "changed": 96,
+    "written": 96,
+    "conflicts": 0,
+    "backup": "/home/geronimo/.upforge/workspaces/mass-edit-server-actions/target/.upforge/projects/mass-edit-server-actions/backups/20261104-085142.tar.gz",
+    "new_modules": 1,
+    "warnings": 0,
+    "removed_modules": [],
+    "foreign_modules": [],
+    "fingerprint": "45b4dd54ff7a",
+    "hops": 4,
+    "suggestions": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T08:51:50",
+   "command": "verify",
+   "exit_code": 0,
+   "started": "2026-11-04T08:51:50+04:00",
+   "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "blocking": 0,
+    "new_warnings": 1,
+    "guidelines_new": 0
+   }
+  },
+  {
+   "run_id": "run_2026-11-04T08:52:14",
+   "command": "record_manual",
+   "exit_code": 0,
+   "started": "2026-11-04T08:52:14+04:00",
+   "summary": {
+    "fixed": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "synced_at": "20261104-085142",
+  "source": "/home/geronimo/.upforge/workspaces/mass-edit-server-actions/source",
+  "ref": null,
+  "commit": "ff8f9150e506059e0f9f264661dce1cb9792c06b",
+  "from": "16.0",
+  "to": "20.0",
+  "working_tree": true,
+  "conflicts": [],
+  "written": 96,
+  "deferred": [],
+  "new_modules": [
+    "server_action_mass_edit"
+  ]
+}
